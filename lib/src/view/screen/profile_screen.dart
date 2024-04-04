@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_asset.dart';
+
+import '../../../core/app_asset.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});

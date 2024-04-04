@@ -2,13 +2,14 @@ import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_icon.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_color.dart';
-import 'package:flutter_japanese_restaurant_app/src/model/food.dart';
-import 'package:flutter_japanese_restaurant_app/core/app_extension.dart';
-import 'package:flutter_japanese_restaurant_app/src/view/widget/counter_button.dart';
-import 'package:flutter_japanese_restaurant_app/src/controller/food_controller.dart';
-import 'package:flutter_japanese_restaurant_app/src/view/widget/scale_animation.dart';
+import 'package:paneran/core/app_extension.dart';
+
+import '../../../core/app_color.dart';
+import '../../../core/app_icon.dart';
+import '../../controller/food_controller.dart';
+import '../../model/food.dart';
+import '../widget/counter_button.dart';
+import '../widget/scale_animation.dart';
 
 final FoodController controller = Get.put(FoodController());
 
