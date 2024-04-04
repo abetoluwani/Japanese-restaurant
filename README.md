@@ -15,5 +15,4 @@
 • Add desired food to the favorite screen
 • Select quantity for each item on detail screen
 • Filter foods by category
-• State management with GetX | Cubit | Bloc | Provider
 ```
